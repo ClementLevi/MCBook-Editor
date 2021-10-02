@@ -1,0 +1,61 @@
+{
+    "description": [
+        "encoding: utf-8",
+        "",
+        "欢迎各位在此文件中添加翻译文档！",
+        "Translation in this json is welcomed!",
+        "",
+        "【格式】：语种标识符在第一层，紧跟对象里面放每一项待翻译的键值对。",
+        "如果您添加了新语种的翻译，则还需要在config-available里添加新语言的标识符。",
+        "config字段的default项指向当所选语种不可用或为空时使用的默认语言。",
+        "",
+        "[ FORMAT ]: language identifier is in the first layer, and the object followed should contain every key-value set of translation.",
+        "If you introduced in a new translation, you will need to add its identifier in 'config - available' as well.",
+        "Item 'default' under 'config' refers to the default language when language you would like to choose is not available."
+
+    ],
+    "config": {
+        "default": "zh-cn",
+        "available": [
+            "zh-cn"
+        ]
+    },
+
+    "zh-cn": {
+        "confirm": "确认",
+        "cancel": "取消",
+        "openFile": "打开已保存的文件",
+        "preview": "预览",
+        "save": "保存",
+        "open": "打开",
+        "generateCommand": "生成指令",
+        "bold": "加粗",
+        "italic": "斜体",
+        "underline": "下划线",
+        "strikethrough": "删除线",
+        "obfuscated": "乱码",
+        "fontColor": "字体颜色",
+        "black": "黑色",
+        "dark_blue": "深蓝色",
+        "dark_green": "深绿色",
+        "dark_aqua": "湖蓝色",
+        "dark_red": "深红色",
+        "dark_purple": "紫色",
+        "gold": "金色",
+        "gray": "灰色",
+        "dark_gray": "深灰色",
+        "blue": "蓝色",
+        "green": "绿色",
+        "aqua": "天蓝色",
+        "red": "红色",
+        "light_purple": "粉红色",
+        "yellow": "黄色",
+        "white": "白色",
+        "minecoin_gold": "硬币金"
+
+    },
+    "en-us": {
+
+
+    }
+}

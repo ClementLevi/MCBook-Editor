@@ -1,0 +1,7 @@
+.frame {
+    background-image: url(resources\img\bookpage.gif);
+    font-size: 32px;
+    font-family: "Minecraft_Unifont";
+    margin-left: 1em;
+    margin-top: 0.5em;
+}

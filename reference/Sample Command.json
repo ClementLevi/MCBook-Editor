@@ -1,0 +1,84 @@
+/give @p written_book{
+    pages:[
+        '["",  // This empty string is an empty text at the initial place
+            
+            {"text":"Normal Text\\n"},
+            {"text":"Bold Text","bold":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Italitic ","italic":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Underlined","underlined":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Striked Text","strikethrough":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Random Text","obfuscated":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Red","color":"red"},
+            {"text":" Green ","color":"dark_green"},
+            {"text":"and ","color":"reset"},
+            {"text":"Brown ","color":"gold"},
+            {"text":"and Blue\\n","color":"reset"},
+            {"selector":"s"},
+            {"text":"Selector @S\\n"},
+            {"score":{
+                "name":"@p","objective":"deathCount"
+                }
+            },
+            {"text":"\\n"},
+            {"text":"bing.com","clickEvent":{
+                "action":"open_url","value":"www.bing.com"
+                }
+            },
+            {"text":"\\n"},
+            {"text":"tooltip","hoverEvent":{
+                "action":"show_text","contents":"what the hell can this generate"
+                }
+            }
+        ]',
+        '["",
+            {"text":"Normal Text2\\n"},
+            {"text":"Bold Text2","bold":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Italitic 2","italic":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Underlined2","underlined":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Striked Text2","strikethrough":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Random Text2","obfuscated":true},
+            {"text":"\\n","color":"reset"},
+            {"text":"Red","color":"red"},
+            {"text":" Green ","color":"dark_green"},
+            {"text":"and ","color":"reset"},
+            {"text":"Brown ","color":"gold"},
+            {"text":"and Blue2\\n","color":"reset"},
+            {"selector":"s"},
+            {"text":"Selector @S2\\n"},
+            {"score":{
+                "name":"@p","objective":"deathCount"
+                }
+            },
+            {"text":"\\n"},
+            {"text":"bing.com","clickEvent":{
+                "action":"open_url","value":"www.bing.com"
+                }
+            },
+            {"text":"2\\n"},
+            {"text":"tooltip","hoverEvent":{
+                "action":"show_text","contents":"what the hell can this generate"
+                }
+            }
+        ]',
+        '["",
+            {"text":"Text mixed\\n"},
+            {"text":"Mixed ","strikethrough":true,"obfuscated":true},
+            {"text":"aga","strikethrough":true,"obfuscated":true,"color":"dark_aqua"},
+            {"text":"in","color":"reset","strikethrough":true,"obfuscated":true}
+        ]'
+    ],
+    title:Book,
+    author:authorName,
+    display:{
+        Lore:["description"]
+        }
+}
